@@ -16,8 +16,8 @@ public class Planet {
         return this.size;
     }
 
-    public void explode() {
-        System.out.println("Boom! " + this.getName() + " has exploded");
+    public String explode() {
+        return "Boom! " + this.getName() + " has exploded";
     }
 
 }
